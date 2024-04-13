@@ -1,4 +1,4 @@
-(ns scad-demo.core
+(ns mxadapter
   (:use [scad-clj.scad])
   (:use [scad-clj.model]))
 
@@ -9,5 +9,5 @@
               (cylinder 10 150) 
                ))
 
-(spit "models/post-demo.scad"
+(spit "models/mxadapter.scad"
       (write-scad primitives))
